@@ -21,6 +21,18 @@ cherries+=(CM_117733)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(CM_123032)
 
+# stagefright-plugins: Revert "codecs: Disable AC3/EAC3"
+cherries+=(CM_127624)
+
+# Kernel: activate 184MHz step
+cherries+=(LX_814)
+
+# Kernel: OC up to 1,8GHz
+cherries+=(LX_815)
+
+# Kernel: add ZEN i/o sheduler
+cherries+=(LX_816)
+
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
 else

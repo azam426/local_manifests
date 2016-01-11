@@ -4,10 +4,10 @@
           fetch="https://github.com"
           review="review.msm7x30.org" />
 
-  <project name="LegacyXperia/local_manifests" path="vendor/extra" remote="msm7x30" />
+  <project name="niks255/local_manifests" path="vendor/extra" remote="msm7x30" />
 
   <!-- LegacyXperia projects -->
-  <project name="LegacyXperia/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="msm7x30" />
+  <project name="niks255/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="msm7x30" />
 
   <project name="LegacyXperia/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_anzu" path="device/semc/anzu" remote="msm7x30" />
@@ -34,6 +34,9 @@
   <project name="msm7x30/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="msm7x30" revision="cm-13.0-caf-7x30" />
   <project name="msm7x30/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="msm7x30" revision="cm-13.0-caf-7x30" />
   <project name="msm7x30/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="msm7x30" revision="cm-13.0-caf-7x30" />
+
+  <!-- Not needed --> 
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 
   <!-- CyanogenMod projects -->
   <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" />
