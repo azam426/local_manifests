@@ -37,13 +37,14 @@
 
   <!-- Not needed --> 
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-
+  <remove-project name="platform/external/chromium-webview" />
+  
   <!-- CyanogenMod projects -->
   <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" />
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" />
-
   <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" />
-
+  <project name="niks255/chromium-webview" path="external/chromium-webview" />
+  
   <!-- AOSP projects-->
   <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="master" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="master" />
