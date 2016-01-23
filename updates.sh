@@ -24,6 +24,9 @@ cherries+=(CM_123032)
 # stagefright-plugins: Revert "codecs: Disable AC3/EAC3"
 cherries+=(CM_127624)
 
+# LockClock: Don't warn about webkit
+cherries+=(CM_129496)
+
 # Kernel: activate 184MHz step
 cherries+=(LX_814)
 
