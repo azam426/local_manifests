@@ -38,6 +38,7 @@
   <!-- Not needed --> 
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/svox" />
   <remove-project name="CyanogenMod/android_packages_apps_Calendar" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <remove-project name="CyanogenMod/android_packages_apps_SetupWizard" />
