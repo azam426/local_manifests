@@ -28,10 +28,10 @@ cherries+=(CM_127624)
 cherries+=(CM_129496)
 
 # Settings: Allow/Prevent notification light in Zen mode (2 of 2)
-#cherries+=(CM_129795)
+cherries+=(CM_129795)
 
 # Frameworks: Allow/Prevent notification light in Zen mode (1 of 2)
-#cherries+=(CM_129796)
+cherries+=(CM_129796)
 
 # Kernel: activate 184MHz step
 cherries+=(LX_814)
